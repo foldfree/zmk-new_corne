@@ -68,22 +68,20 @@
         Nav {
             display-name = "Nav";
             bindings = <
-&trans  &kp TAB     &kp HOME           &kp UP_ARROW    &kp END          &kp PG_UP                                    &mmv MOVE_UP                     &kp SLASH     &kp N7        &kp N8        &kp N9        &kp F10         &kp DELETE
-&trans  &kp CAPS    &kp LEFT           &kp DOWN_ARROW  &kp RIGHT        &kp PAGE_DOWN                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0          &tog 2
-&trans  &sys_reset  &kp C_VOLUME_DOWN  &kp K_MUTE      &kp C_VOLUME_UP  &kp LS(TAB)    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp KP_COMMA  &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp SCROLLLOCK  &kp PAUSE_BREAK
+&trans  &kp TAB     &kp HOME           &kp UP_ARROW    &kp END          &kp PG_UP                                    &mmv MOVE_UP                     &kp SLASH     &kp N7        &kp N8        &kp N9        &kp F10  &kp DELETE
+&trans  &kp CAPS    &kp LEFT           &kp DOWN_ARROW  &kp RIGHT        &kp PAGE_DOWN                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0   &tog 2
+&trans  &sys_reset  &kp C_VOLUME_DOWN  &kp K_MUTE      &kp C_VOLUME_UP  &kp LS(TAB)    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp KP_COMMA  &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp N    &kp PRINTSCREEN
                                        &trans          &trans           &trans                                                                        &trans        &trans        &trans
             >;
-
-            sensor-bindings = <&scroll_encoder>;
         };
 
         system {
             display-name = "system";
             bindings = <
-&bootloader  &kp N1           &kp N2          &kp N3        &kp N4        &bt BT_SEL 4                                   &mmv MOVE_UP                     &kp F15  &kp F7   &kp F8  &kp F9  &kp F12  &kp BSPC
-&trans       &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F13  &kp F4   &kp F5  &kp F6  &kp F10  &kp PG_UP
-&sys_reset   &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp F14  &kp F1   &kp F2  &kp F3  &kp F11  &kp PG_DN
-                                              &trans        &trans        &tog 0                                                                          &kp INS  &kp DEL  &trans
+&bootloader  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                   &mmv MOVE_UP                     &kp F15  &kp F7   &kp F8  &kp F9  &kp F12  &kp BSPC
+&trans       &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F13  &kp F4   &kp F5  &kp F6  &kp F10  &kp PG_UP
+&sys_reset   &out OUT_USB    &out OUT_BLE  &out OUT_BLE  &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp F14  &kp F1   &kp F2  &kp F3  &kp F11  &kp PG_DN
+                                           &trans        &trans        &tog 0                                                                          &tog 0   &kp DEL  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
