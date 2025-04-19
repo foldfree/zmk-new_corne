@@ -61,9 +61,9 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - F10
+  - $$mdi:brightness-5$$
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:brightness-5$$
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -78,7 +78,7 @@ layers:
   - '6'
   - {t: '0', s: )}
   - {t: system, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:brightness-7$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-low$$
   - MUTE
@@ -90,7 +90,7 @@ layers:
   - {t: '1', s: '!'}
   - '2'
   - '3'
-  - N
+  - .
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
