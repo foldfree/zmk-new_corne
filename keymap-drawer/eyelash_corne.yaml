@@ -61,10 +61,10 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - $$mdi:brightness-5$$
+  - PRINTSCREEN
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:brightness-7$$
-  - PRINTSCREEN
+  - PLAY PAUSE
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
