@@ -147,3 +147,6 @@ layers:
   - {t: WRITE, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [23, 24, 25]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
