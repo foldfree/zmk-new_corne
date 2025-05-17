@@ -29,7 +29,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - '&td0'
   - Z
   - X
   - C
@@ -86,7 +86,7 @@ layers:
   - $$mdi:keyboard-tab-reverse$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - KP COMMA
+  - {t: ',', s: <}
   - {t: '1', s: '!'}
   - '2'
   - '3'
