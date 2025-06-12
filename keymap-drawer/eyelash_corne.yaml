@@ -177,10 +177,10 @@ layers:
   - '&td0'
   - {t: '&td0', type: held}
   - '&td0'
-  - OUT USB
-  - OUT BLE
-  - OUT BLE
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - '&td0'
+  - '&td0'
+  - '&td0'
   - {t: WRITE, h: toggle}
   - '&td0'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -245,3 +245,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [23, 24, 25]
+  k: {t: mouse, h: toggle}
