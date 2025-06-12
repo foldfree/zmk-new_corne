@@ -50,6 +50,15 @@
         tap-ms = <100>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        MouseToggle {
+            bindings = <&tog 4>;
+            key-positions = <23 24 25>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -92,7 +101,7 @@
             bindings = <
 &td0        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &mmv MOVE_UP                     &td0   &td0   &td0   &td0  &kp PRINTSCREEN  &td0
 &bt BT_CLR  &td0          &td0          &td0          &td0          &td0                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &td0   &td0   &td0   &td0  &td0             &td0
-&td0        &out OUT_USB  &out OUT_BLE  &out OUT_BLE  &trans        &to 0         &td0                    &mmv MOVE_DOWN                   &td0   &td0   &td0   &td0  &td0             &td0
+&td0        &out OUT_TOG  &td0          &td0          &td0          &to 0         &td0                    &mmv MOVE_DOWN                   &td0   &td0   &td0   &td0  &td0             &td0
                                         &to 0         &to 0         &to 0                                                                  &to 0  &to 0  &to 0
             >;
 
