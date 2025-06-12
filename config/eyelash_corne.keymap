@@ -68,23 +68,44 @@
         Navigation {
             display-name = "NAV";
             bindings = <
-&kp C_BRIGHTNESS_INC  &kp TAB           &kp HOME           &kp UP_ARROW    &kp END          &kp PG_UP                                    &mmv MOVE_UP                     &kp SLASH     &kp N7        &kp N8        &kp N9        &kp PRINTSCREEN  &kp DELETE
-&kp C_BRIGHTNESS_DEC  &kp C_PLAY_PAUSE  &kp LEFT           &kp DOWN_ARROW  &kp RIGHT        &kp PAGE_DOWN                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0           &to 2
-&trans                &trans            &kp C_VOLUME_DOWN  &kp K_MUTE      &kp C_VOLUME_UP  &kp LS(TAB)    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp KP_COMMA  &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD       &trans
-                                                           &trans          &trans           &trans                                                                        &trans        &trans        &trans
+&kp C_BRIGHTNESS_INC  &kp TAB     &kp HOME           &kp UP_ARROW    &kp END          &kp PG_UP                                    &mmv MOVE_UP                     &kp SLASH     &kp N7        &kp N8        &kp N9        &trans      &kp DELETE
+&kp C_BRIGHTNESS_DEC  &trans      &kp LEFT           &kp DOWN_ARROW  &kp RIGHT        &kp PAGE_DOWN                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0      &trans
+&kp C_PREVIOUS        &kp C_NEXT  &kp C_VOLUME_DOWN  &kp K_MUTE      &kp C_VOLUME_UP  &kp LS(TAB)    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp KP_COMMA  &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans
+                                                     &trans          &trans           &trans                                                                        &trans        &trans        &sl 2
             >;
         };
 
-        system {
-            display-name = "system";
+        Function {
+            display-name = "fn";
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                &mmv MOVE_UP                     &kp F15  &kp F7  &kp F8  &kp F9  &kp F12  &trans
-&trans  &bt BT_NXT    &bt BT_CLR    &trans        &trans        &trans                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F13  &kp F4  &kp F5  &kp F6  &kp F10  &trans
-&trans  &out OUT_USB  &out OUT_BLE  &out OUT_BLE  &trans        &to 0         &kp C_MUTE                    &mmv MOVE_DOWN                   &kp F14  &kp F1  &kp F2  &kp F3  &kp F11  &trans
-                                    &trans        &trans        &to 0                                                                        &to 0    &trans  &trans
+&trans  &td0  &kp F7  &kp F8  &kp F9  &td0                                 &mmv MOVE_UP                     &kp F15  &kp F17  &kp F18  &kp F19  &kp F12  &trans
+&to 0   &td0  &kp F4  &kp F5  &kp F6  &td0                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F13  &kp F14  &kp F15  &kp F16  &kp F10  &sl 3
+&trans  &td0  &kp F1  &kp F2  &kp F3  &to 0  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp F14  &kp F11  &kp F12  &kp F13  &kp F11  &to 0
+                      &trans  &trans  &to 0                                                                 &to 0    &trans   &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        system {
+            display-name = "Bluetooth";
+            bindings = <
+&td0        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &mmv MOVE_UP                     &td0   &td0              &td0   &td0  &kp PRINTSCREEN  &td0
+&bt BT_CLR  &td0          &td0          &td0          &td0          &td0                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &td0   &kp C_PLAY_PAUSE  &td0   &td0  &td0             &td0
+&td0        &out OUT_USB  &out OUT_BLE  &out OUT_BLE  &trans        &to 0         &td0                    &mmv MOVE_DOWN                   &td0   &td0              &td0   &td0  &td0             &td0
+                                        &to 0         &to 0         &to 0                                                                  &to 0  &to 0             &to 0
+            >;
+
+            sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans          &mmv MOVE_UP    &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans          &trans          &trans           &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans          &trans
+            >;
         };
     };
 };
