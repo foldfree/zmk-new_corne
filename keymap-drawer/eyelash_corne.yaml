@@ -248,3 +248,5 @@ layers:
 combos:
 - p: [23, 24, 25]
   k: {t: mouse, h: toggle}
+- p: [17, 16, 15, 14, 44, 45, 23, 24, 25, 26]
+  k: '&soft_off'
