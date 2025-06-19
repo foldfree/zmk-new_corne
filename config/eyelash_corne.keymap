@@ -57,6 +57,11 @@
             bindings = <&tog 4>;
             key-positions = <23 24 25>;
         };
+
+        SoftOff {
+            bindings = <&soft_off>;
+            key-positions = <17 16 15 14 44 45 23 24 25 26>;
+        };
     };
 
     keymap {
