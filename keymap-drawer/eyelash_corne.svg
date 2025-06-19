@@ -576,18 +576,11 @@ rect.held, rect.combo.held {
 </a><text x="784" y="99" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<path d="M490,119 l-219,-26" class="combo"/>
-<path d="M490,119 l-275,-33" class="combo"/>
-<path d="M490,119 l-331,-27" class="combo"/>
-<path d="M490,119 l-387,-14" class="combo"/>
-<path d="M490,119 l-127,95" class="combo"/>
-<path d="M490,119 l127,94" class="combo"/>
-<path d="M490,119 l219,-26" class="combo"/>
-<path d="M490,119 l275,-33" class="combo"/>
-<path d="M490,119 l331,-27" class="combo"/>
-<path d="M490,119 l387,-14" class="combo"/>
-<rect rx="6" ry="6" x="476" y="106" width="28" height="26" class="combo"/>
-<text x="490" y="119" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+<path d="M196,98 l44,-49" class="combo"/>
+<path d="M196,98 l-149,6" class="combo"/>
+<path d="M196,98 l95,47" class="combo"/>
+<rect rx="6" ry="6" x="182" y="85" width="28" height="26" class="combo"/>
+<text x="196" y="98" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 </g>
 </g>
@@ -860,18 +853,11 @@ rect.held, rect.combo.held {
 </a><text x="784" y="99" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<path d="M490,119 l-219,-26" class="combo"/>
-<path d="M490,119 l-275,-33" class="combo"/>
-<path d="M490,119 l-331,-27" class="combo"/>
-<path d="M490,119 l-387,-14" class="combo"/>
-<path d="M490,119 l-127,95" class="combo"/>
-<path d="M490,119 l127,94" class="combo"/>
-<path d="M490,119 l219,-26" class="combo"/>
-<path d="M490,119 l275,-33" class="combo"/>
-<path d="M490,119 l331,-27" class="combo"/>
-<path d="M490,119 l387,-14" class="combo"/>
-<rect rx="6" ry="6" x="476" y="106" width="28" height="26" class="combo"/>
-<text x="490" y="119" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+<path d="M196,98 l44,-49" class="combo"/>
+<path d="M196,98 l-149,6" class="combo"/>
+<path d="M196,98 l95,47" class="combo"/>
+<rect rx="6" ry="6" x="182" y="85" width="28" height="26" class="combo"/>
+<text x="196" y="98" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 </g>
 </g>
@@ -1142,18 +1128,11 @@ rect.held, rect.combo.held {
 </a><text x="784" y="99" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<path d="M490,119 l-219,-26" class="combo"/>
-<path d="M490,119 l-275,-33" class="combo"/>
-<path d="M490,119 l-331,-27" class="combo"/>
-<path d="M490,119 l-387,-14" class="combo"/>
-<path d="M490,119 l-127,95" class="combo"/>
-<path d="M490,119 l127,94" class="combo"/>
-<path d="M490,119 l219,-26" class="combo"/>
-<path d="M490,119 l275,-33" class="combo"/>
-<path d="M490,119 l331,-27" class="combo"/>
-<path d="M490,119 l387,-14" class="combo"/>
-<rect rx="6" ry="6" x="476" y="106" width="28" height="26" class="combo"/>
-<text x="490" y="119" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+<path d="M196,98 l44,-49" class="combo"/>
+<path d="M196,98 l-149,6" class="combo"/>
+<path d="M196,98 l95,47" class="combo"/>
+<rect rx="6" ry="6" x="182" y="85" width="28" height="26" class="combo"/>
+<text x="196" y="98" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 </g>
 </g>
@@ -1434,18 +1413,11 @@ rect.held, rect.combo.held {
 </a><text x="784" y="99" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<path d="M490,119 l-219,-26" class="combo"/>
-<path d="M490,119 l-275,-33" class="combo"/>
-<path d="M490,119 l-331,-27" class="combo"/>
-<path d="M490,119 l-387,-14" class="combo"/>
-<path d="M490,119 l-127,95" class="combo"/>
-<path d="M490,119 l127,94" class="combo"/>
-<path d="M490,119 l219,-26" class="combo"/>
-<path d="M490,119 l275,-33" class="combo"/>
-<path d="M490,119 l331,-27" class="combo"/>
-<path d="M490,119 l387,-14" class="combo"/>
-<rect rx="6" ry="6" x="476" y="106" width="28" height="26" class="combo"/>
-<text x="490" y="119" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+<path d="M196,98 l44,-49" class="combo"/>
+<path d="M196,98 l-149,6" class="combo"/>
+<path d="M196,98 l95,47" class="combo"/>
+<rect rx="6" ry="6" x="182" y="85" width="28" height="26" class="combo"/>
+<text x="196" y="98" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 </g>
 </g>
@@ -1705,18 +1677,11 @@ rect.held, rect.combo.held {
 </a><text x="784" y="99" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<path d="M490,119 l-219,-26" class="combo"/>
-<path d="M490,119 l-275,-33" class="combo"/>
-<path d="M490,119 l-331,-27" class="combo"/>
-<path d="M490,119 l-387,-14" class="combo"/>
-<path d="M490,119 l-127,95" class="combo"/>
-<path d="M490,119 l127,94" class="combo"/>
-<path d="M490,119 l219,-26" class="combo"/>
-<path d="M490,119 l275,-33" class="combo"/>
-<path d="M490,119 l331,-27" class="combo"/>
-<path d="M490,119 l387,-14" class="combo"/>
-<rect rx="6" ry="6" x="476" y="106" width="28" height="26" class="combo"/>
-<text x="490" y="119" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+<path d="M196,98 l44,-49" class="combo"/>
+<path d="M196,98 l-149,6" class="combo"/>
+<path d="M196,98 l95,47" class="combo"/>
+<rect rx="6" ry="6" x="182" y="85" width="28" height="26" class="combo"/>
+<text x="196" y="98" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 </g>
 </g>
