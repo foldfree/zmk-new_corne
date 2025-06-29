@@ -82,19 +82,19 @@
         Navigation {
             display-name = "NAV";
             bindings = <
-&kp C_BRIGHTNESS_INC  &kp TAB  &kp HOME           &kp UP_ARROW    &kp END          &kp PG_UP                                    &mmv MOVE_UP                     &kp SLASH     &kp N7        &kp N8        &kp N9        &trans      &kp DELETE
-&kp C_BRIGHTNESS_DEC  &trans   &kp LEFT           &kp DOWN_ARROW  &kp RIGHT        &kp PAGE_DOWN                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0      &trans
-&trans                &trans   &kp C_VOLUME_DOWN  &kp K_MUTE      &kp C_VOLUME_UP  &kp LS(TAB)    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp KP_COMMA  &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans
-                                                  &trans          &trans           &trans                                                                        &trans        &trans        &sl 2
+&kp C_BRIGHTNESS_INC  &kp TAB  &kp HOME           &kp UP_ARROW    &kp END          &kp PG_UP                                    &mmv MOVE_UP                     &kp SLASH   &kp N7        &kp N8        &kp N9        &trans  &kp DELETE
+&kp C_BRIGHTNESS_DEC  &trans   &kp LEFT           &kp DOWN_ARROW  &kp RIGHT        &kp PAGE_DOWN                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0  &trans
+&trans                &trans   &kp C_VOLUME_DOWN  &kp K_MUTE      &kp C_VOLUME_UP  &kp LS(TAB)    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp PERIOD  &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp N   &trans
+                                                  &trans          &trans           &trans                                                                        &trans      &trans        &tog 2
             >;
         };
 
         Function {
             display-name = "fn";
             bindings = <
-&trans  &td0  &kp F7  &kp F8  &kp F9  &td0                                 &mmv MOVE_UP                     &kp F15  &kp F17  &kp F18  &kp F19  &kp F12  &trans
+&trans  &td0  &kp F7  &kp F8  &kp F9  &td0                                 &mmv MOVE_UP                     &kp F15  &kp F17  &kp F18  &kp F19  &kp F12  &kp PRINTSCREEN
 &to 0   &td0  &kp F4  &kp F5  &kp F6  &td0                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F13  &kp F14  &kp F15  &kp F16  &kp F10  &sl 3
-&trans  &td0  &kp F1  &kp F2  &kp F3  &to 0  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp F14  &kp F11  &kp F12  &kp F13  &kp F11  &to 0
+&td0    &td0  &kp F1  &kp F2  &kp F3  &to 0  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp F14  &kp F11  &kp F12  &kp F13  &kp F11  &to 0
                       &trans  &trans  &to 0                                                                 &to 0    &trans   &trans
             >;
 
