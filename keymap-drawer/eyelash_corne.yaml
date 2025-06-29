@@ -176,7 +176,7 @@ layers:
   - '&td0'
   - '&td0'
   - {t: '&td0', type: held}
-  - '&td0'
+  - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - '&td0'
   - '&td0'
