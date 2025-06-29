@@ -86,18 +86,18 @@ layers:
   - $$mdi:keyboard-tab-reverse$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - KP COMMA
+  - .
   - {t: '1', s: '!'}
   - '2'
   - '3'
-  - .
+  - N
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: fn, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: fn, h: toggle}
   fn:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&td0'
@@ -111,7 +111,7 @@ layers:
   - F18
   - F19
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
   - {t: WRITE, h: toggle}
   - '&td0'
   - F4
@@ -127,7 +127,7 @@ layers:
   - F16
   - F10
   - {t: Bluetooth, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&td0'
   - '&td0'
   - F1
   - F2
@@ -144,9 +144,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: WRITE, h: toggle}
-  - {t: WRITE, h: toggle, type: held}
+  - {t: WRITE, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   Bluetooth:
   - '&td0'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -193,9 +193,9 @@ layers:
   - {t: WRITE, h: toggle}
   - {t: WRITE, h: toggle}
   - {t: WRITE, h: toggle}
-  - {t: WRITE, h: toggle, type: held}
   - {t: WRITE, h: toggle}
-  - {t: WRITE, h: toggle, type: held}
+  - {t: WRITE, h: toggle}
+  - {t: WRITE, h: toggle}
   mouse:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
