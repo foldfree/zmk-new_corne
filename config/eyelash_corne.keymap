@@ -123,5 +123,14 @@
 
             label = "mouse";
         };
+
+        iPad {
+            bindings = <
+&trans     &kp Q  &kp C  &kp O      &kp P      &kp W                             &kp SPACE             &kp J     &kp M      &kp D     &kp DOT   &kp Y  &kp BSPC
+&kp ESC    &kp A  &kp S  &kp E      &kp N      &kp F                  &kp SPACE  &kp SPACE  &kp SPACE  &kp L     &kp R      &kp T     &kp I     &kp U  &kp ENTER
+&kp LSHFT  &kp Z  &kp X  &kp MINUS  &kp V      &kp B     &kp SPACE               &kp SPACE             &kp DOT   &kp H      &kp G     &kp SEMI  &kp K  &kp RSHFT
+                         &kp LALT   &kp LCTRL  &kp LGUI                                                &kp RGUI  &kp SPACE  &kp RALT
+            >;
+        };
     };
 };
