@@ -245,6 +245,55 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  iPad:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Q
+  - C
+  - O
+  - P
+  - W
+  - $$mdi:keyboard-space$$
+  - J
+  - M
+  - D
+  - {t: ., s: '>'}
+  - Y
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-esc$$
+  - A
+  - S
+  - E
+  - N
+  - F
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - L
+  - R
+  - T
+  - I
+  - U
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - {t: '-', s: _}
+  - V
+  - B
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - {t: ., s: '>'}
+  - H
+  - G
+  - {t: ;, s: ':'}
+  - K
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - LGUI
+  - RGUI
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-option$$
 combos:
 - p: [23, 24, 25]
   k: {t: mouse, h: toggle}
