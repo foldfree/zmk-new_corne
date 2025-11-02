@@ -111,10 +111,10 @@
         system {
             display-name = "Bluetooth";
             bindings = <
-&td0          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &mmv MOVE_UP                     &td0   &td0   &td0   &td0  &kp PRINTSCREEN  &td0
-&bt BT_CLR    &td0          &td0          &td0          &td0          &td0                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &td0   &td0   &td0   &td0  &td0             &td0
-&kp CAPSLOCK  &out OUT_TOG  &td0          &td0          &td0          &to 0         &td0                    &mmv MOVE_DOWN                   &td0   &td0   &td0   &td0  &td0             &td0
-                                          &to 0         &to 0         &to 0                                                                  &to 0  &to 0  &to 0
+&td0        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &mmv MOVE_UP                     &td0   &td0   &td0   &td0  &kp PRINTSCREEN  &td0
+&bt BT_CLR  &td0          &td0          &td0          &td0          &td0                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &td0   &td0   &td0   &td0  &td0             &td0
+&trans      &out OUT_TOG  &td0          &td0          &td0          &to 0         &td0                    &mmv MOVE_DOWN                   &td0   &td0   &td0   &td0  &td0             &td0
+                                        &to 0         &to 0         &to 0                                                                  &to 0  &to 0  &to 0
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -122,10 +122,10 @@
 
         cast {
             bindings = <
-&trans  &trans  &trans          &msc SCRL_UP    &trans           &trans                    &trans          &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
-&trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans            &trans  &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &trans  &trans            &trans          &trans  &trans          &trans          &trans           &trans  &trans
-                                &trans          &trans           &trans                                    &trans  &trans          &trans
+&trans  &kp F21  &kp F22  &kp F23  &kp F24  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F17  &kp F18  &kp F19  &kp F20  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F13  &kp F14  &kp F15  &kp F16  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans   &trans   &trans                                    &trans  &trans  &trans
             >;
 
             label = "cast";
