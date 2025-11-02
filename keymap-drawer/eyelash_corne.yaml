@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - '&altcast'
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - NAV
@@ -196,7 +196,7 @@ layers:
   - {t: WRITE, h: toggle}
   - {t: WRITE, h: toggle}
   - {t: WRITE, h: toggle}
-  mouse:
+  cast:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -247,6 +247,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [23, 24, 25]
-  k: {t: mouse, h: toggle}
+  k: {t: cast, h: toggle}
 - p: [4, 13, 33]
   k: '&soft_off'
