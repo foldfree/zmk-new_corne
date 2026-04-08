@@ -15,8 +15,8 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
+  - A
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
-  - S
   - D
   - F
   - G
