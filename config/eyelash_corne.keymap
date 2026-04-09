@@ -106,10 +106,10 @@
         default_layer {
             display-name = "WRITE";
             bindings = <
-&kp TAB         &kp Q  &kp W                    &kp E                 &kp R                    &kp T                                    &kp UP                &kp Y  &kp U                     &kp I                 &kp O                     &kp P     &kp BSPC
-&kp ESCAPE      &kp A  &holdTapPref LEFT_GUI S  &holdTapPref LCTRL D  &holdTapPref LEFT_ALT F  &kp G                          &kp LEFT  &kp ENTER  &kp RIGHT  &kp H  &holdTapPref RIGHT_ALT J  &holdTapPref RCTRL K  &holdTapPref RIGHT_GUI L  &kp SEMI  &kp ENTER
-&sk LEFT_SHIFT  &kp Z  &kp X                    &kp C                 &kp V                    &kp B             &kp SPACE              &kp DOWN              &kp N  &kp M                     &kp COMMA             &kp DOT                   &kp FSLH  &sk RIGHT_SHIFT
-                                                &altcast              &kp LCTRL                &kp LEFT_COMMAND                                               &mo 1  &kp SPACE                 &kp RALT
+&kp TAB         &kp Q  &kp W                    &kp E                    &kp R                        &kp T                                    &kp UP                &kp Y  &kp U                         &kp I                         &kp O                     &kp P     &kp BSPC
+&kp ESCAPE      &kp A  &holdTapPref LEFT_ALT S  &holdTapPref LEFT_GUI D  &holdTapPref LEFT_CONTROL F  &kp G                          &kp LEFT  &kp ENTER  &kp RIGHT  &kp H  &holdTapPref RIGHT_CONTROL J  &holdTapPref RIGHT_COMMAND K  &holdTapPref RIGHT_ALT L  &kp SEMI  &kp ENTER
+&sk LEFT_SHIFT  &kp Z  &kp X                    &kp C                    &kp V                        &kp B             &kp SPACE              &kp DOWN              &kp N  &kp M                         &kp COMMA                     &kp DOT                   &kp FSLH  &sk RIGHT_SHIFT
+                                                &altcast                 &kp LCTRL                    &kp LEFT_COMMAND                                               &mo 1  &kp SPACE                     &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
