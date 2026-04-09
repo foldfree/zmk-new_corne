@@ -56,7 +56,7 @@
         shiftQuick: shiftQuick {
             compatible = "zmk,behavior-sticky-key";
             label = "SHIFTQUICK";
-            bindings = <&none>;
+            bindings = <&kp>;
             #binding-cells = <1>;
             quick-release;
             release-after-ms = <1000>;
@@ -66,7 +66,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "STICKYSHIFTCAPS";
             #binding-cells = <0>;
-            bindings = <&shiftQuick 0>, <&caps_word>;
+            bindings = <&shiftQuick LEFT_SHIFT>, <&caps_word>;
         };
     };
 
