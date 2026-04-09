@@ -29,7 +29,7 @@ layers:
   - {t: L, h: RIGHT GUI}
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - '&StickyShiftCaps'
   - Z
   - X
   - C
@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - '&StickyShiftCaps'
   - '&altcast'
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
