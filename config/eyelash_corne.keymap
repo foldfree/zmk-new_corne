@@ -68,6 +68,8 @@
             label = "STICKYSHIFTCAPSL";
             #binding-cells = <0>;
             bindings = <&sk LEFT_SHIFT>, <&caps_word>;
+
+            tapping-term-ms = <200>;
         };
 
         shiftR: shiftR {
@@ -75,6 +77,8 @@
             label = "SHIFTR";
             #binding-cells = <0>;
             bindings = <&sk RIGHT_SHIFT>, <&caps_word>;
+
+            tapping-term-ms = <200>;
         };
     };
 
