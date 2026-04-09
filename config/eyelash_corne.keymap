@@ -78,6 +78,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
+            flavor = "balanced";
         };
 
         ThumbSide: ThumbSide {
@@ -87,6 +88,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
+            flavor = "hold-preferred";
         };
     };
 
@@ -106,11 +108,6 @@
 
     combos {
         compatible = "zmk,combos";
-
-        MouseToggle {
-            bindings = <&tog 4>;
-            key-positions = <23 24 25>;
-        };
 
         SoftOff {
             bindings = <&soft_off>;
