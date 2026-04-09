@@ -62,11 +62,18 @@
             release-after-ms = <1000>;
         };
 
-        StickyShiftCaps: StickyShiftCaps {
+        StickyShiftCapsL: StickyShiftCapsL {
             compatible = "zmk,behavior-tap-dance";
-            label = "STICKYSHIFTCAPS";
+            label = "STICKYSHIFTCAPSL";
             #binding-cells = <0>;
             bindings = <&shiftQuick LEFT_SHIFT>, <&caps_word>;
+        };
+
+        shiftR: shiftR {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SHIFTR";
+            #binding-cells = <0>;
+            bindings = <&shiftQuick RIGHT_SHIFT>, <&caps_word>;
         };
     };
 
@@ -104,10 +111,10 @@
         default_layer {
             display-name = "WRITE";
             bindings = <
-&kp TAB           &kp Q  &kp W                    &kp E                 &kp R                    &kp T                                    &kp UP                &kp Y  &kp U                     &kp I                 &kp O                     &kp P     &kp BSPC
-&kp ESCAPE        &kp A  &holdTapPref LEFT_GUI S  &holdTapPref LCTRL D  &holdTapPref LEFT_ALT F  &kp G                          &kp LEFT  &kp ENTER  &kp RIGHT  &kp H  &holdTapPref RIGHT_ALT J  &holdTapPref RCTRL K  &holdTapPref RIGHT_GUI L  &kp SEMI  &kp ENTER
-&StickyShiftCaps  &kp Z  &kp X                    &kp C                 &kp V                    &kp B             &kp SPACE              &kp DOWN              &kp N  &kp M                     &kp COMMA             &kp DOT                   &kp FSLH  &StickyShiftCaps
-                                                  &altcast              &kp LCTRL                &kp LEFT_COMMAND                                               &mo 1  &kp SPACE                 &kp RALT
+&kp TAB            &kp Q  &kp W                    &kp E                 &kp R                    &kp T                                    &kp UP                &kp Y  &kp U                     &kp I                 &kp O                     &kp P     &kp BSPC
+&kp ESCAPE         &kp A  &holdTapPref LEFT_GUI S  &holdTapPref LCTRL D  &holdTapPref LEFT_ALT F  &kp G                          &kp LEFT  &kp ENTER  &kp RIGHT  &kp H  &holdTapPref RIGHT_ALT J  &holdTapPref RCTRL K  &holdTapPref RIGHT_GUI L  &kp SEMI  &kp ENTER
+&StickyShiftCapsL  &kp Z  &kp X                    &kp C                 &kp V                    &kp B             &kp SPACE              &kp DOWN              &kp N  &kp M                     &kp COMMA             &kp DOT                   &kp FSLH  &shiftR
+                                                   &altcast              &kp LCTRL                &kp LEFT_COMMAND                                               &mo 1  &kp SPACE                 &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
