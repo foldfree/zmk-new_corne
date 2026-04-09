@@ -53,32 +53,22 @@
             require-prior-idle-ms = <150>;
         };
 
-        shiftQuick: shiftQuick {
-            compatible = "zmk,behavior-sticky-key";
-            label = "SHIFTQUICK";
-            bindings = <&kp>;
-            #binding-cells = <1>;
-            quick-release;
-            release-after-ms = <1000>;
-            ignore-modifiers;
-        };
-
-        StickyShiftCapsL: StickyShiftCapsL {
-            compatible = "zmk,behavior-tap-dance";
-            label = "STICKYSHIFTCAPSL";
-            #binding-cells = <0>;
-            bindings = <&sk LEFT_SHIFT>, <&caps_word>;
-
-            tapping-term-ms = <200>;
-        };
-
-        shiftR: shiftR {
-            compatible = "zmk,behavior-tap-dance";
-            label = "SHIFTR";
-            #binding-cells = <0>;
+        morphCaps: morphCaps {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MORPHCAPS";
             bindings = <&sk RIGHT_SHIFT>, <&caps_word>;
 
-            tapping-term-ms = <200>;
+            #binding-cells = <0>;
+            mods = <(MOD_RALT|MOD_LALT)>;
+        };
+
+        morphcapL: morphcapL {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MORPHCAPL";
+            bindings = <&sk LEFT_SHIFT>, <&caps_word>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RALT|MOD_LALT)>;
         };
     };
 
@@ -116,10 +106,10 @@
         default_layer {
             display-name = "WRITE";
             bindings = <
-&kp TAB            &kp Q  &kp W                    &kp E                 &kp R                    &kp T                                    &kp UP                &kp Y  &kp U                     &kp I                 &kp O                     &kp P     &kp BSPC
-&kp ESCAPE         &kp A  &holdTapPref LEFT_GUI S  &holdTapPref LCTRL D  &holdTapPref LEFT_ALT F  &kp G                          &kp LEFT  &kp ENTER  &kp RIGHT  &kp H  &holdTapPref RIGHT_ALT J  &holdTapPref RCTRL K  &holdTapPref RIGHT_GUI L  &kp SEMI  &kp ENTER
-&StickyShiftCapsL  &kp Z  &kp X                    &kp C                 &kp V                    &kp B             &kp SPACE              &kp DOWN              &kp N  &kp M                     &kp COMMA             &kp DOT                   &kp FSLH  &shiftR
-                                                   &altcast              &kp LCTRL                &kp LEFT_COMMAND                                               &mo 1  &kp SPACE                 &kp RALT
+&kp TAB     &kp Q  &kp W                    &kp E                 &kp R                    &kp T                                    &kp UP                &kp Y  &kp U                     &kp I                 &kp O                     &kp P     &kp BSPC
+&kp ESCAPE  &kp A  &holdTapPref LEFT_GUI S  &holdTapPref LCTRL D  &holdTapPref LEFT_ALT F  &kp G                          &kp LEFT  &kp ENTER  &kp RIGHT  &kp H  &holdTapPref RIGHT_ALT J  &holdTapPref RCTRL K  &holdTapPref RIGHT_GUI L  &kp SEMI  &kp ENTER
+&morphcapL  &kp Z  &kp X                    &kp C                 &kp V                    &kp B             &kp SPACE              &kp DOWN              &kp N  &kp M                     &kp COMMA             &kp DOT                   &kp FSLH  &morphCaps
+                                            &altcast              &kp LCTRL                &kp LEFT_COMMAND                                               &mo 1  &kp SPACE                 &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
