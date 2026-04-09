@@ -56,7 +56,7 @@
         shiftQuick: shiftQuick {
             compatible = "zmk,behavior-sticky-key";
             label = "SHIFTQUICK";
-            bindings = <&kp>;
+            bindings = <&sk>;
             #binding-cells = <1>;
             quick-release;
             release-after-ms = <1000>;
