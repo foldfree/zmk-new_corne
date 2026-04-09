@@ -68,7 +68,7 @@
             bindings = <&sk LEFT_SHIFT>, <&caps_word>;
 
             #binding-cells = <0>;
-            mods = <(MOD_RALT|MOD_LALT)>;
+            mods = <(MOD_LCTL|MOD_RCTL)>;
         };
     };
 
