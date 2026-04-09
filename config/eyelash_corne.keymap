@@ -116,6 +116,11 @@
             bindings = <&soft_off>;
             key-positions = <4 13 33>;
         };
+
+        mouseless {
+            bindings = <&kp F15>;
+            key-positions = <44 45>;
+        };
     };
 
     keymap {
