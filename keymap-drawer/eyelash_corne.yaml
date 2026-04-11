@@ -148,7 +148,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Bluetooth:
-  - '&td0'
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -161,7 +161,7 @@ layers:
   - '&td0'
   - PRINTSCREEN
   - '&td0'
-  - {t: '$$mdi:bluetooth-off$$', type: held}
+  - {t: '&td0', type: held}
   - '&td0'
   - '&td0'
   - '&td0'
@@ -193,8 +193,8 @@ layers:
   - {t: WRITE, h: toggle}
   - {t: WRITE, h: toggle}
   - {t: WRITE, h: toggle}
-  - {t: WRITE, h: toggle}
-  - {t: WRITE, h: toggle}
+  - $$mdi:bluetooth-off$$
+  - $$mdi:bluetooth-off$$
   - {t: WRITE, h: toggle}
   cast:
   - {t: '$$mdi:transfer$$', type: trans}
