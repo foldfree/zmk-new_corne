@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: 'Ctl+$$mdi:keyboard-tab$$', h: Bluetooth}
+  - {t: '$$mdi:apple-keyboard-command$$', h: Bluetooth}
   - A
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
@@ -29,7 +29,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: 'Gui+$$mdi:keyboard-tab$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - Z
   - X
   - C
