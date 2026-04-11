@@ -141,7 +141,7 @@
 &kp TAB               &kp Q  &kp W                    &kp E                    &kp R                         &kp T                                             &kp UP                &kp Y                  &kp U                         &kp I                         &kp O                     &kp P     &kp BSPC
 &SysAccess 3 LC(TAB)  &kp A  &holdTapPref LEFT_ALT S  &holdTapPref LEFT_GUI D  &holdTapPref LEFT_CONTROL F   &kp G                                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                  &holdTapPref RIGHT_CONTROL J  &holdTapPref RIGHT_COMMAND K  &holdTapPref RIGHT_ALT L  &kp SEMI  &kp ENTER
 &sk LG(TAB)           &kp Z  &kp X                    &kp C                    &kp V                         &kp B                      &kp SPACE              &kp DOWN              &kp N                  &kp M                         &kp COMMA                     &kp DOT                   &kp FSLH  &sk RIGHT_SHIFT
-                                                      &altcast                 &ThumbSide LEFT_SHIFT ESCAPE  &holdTapThumb 1 BACKSPACE                                               &holdTapThumb 1 SPACE  &ThumbSide RIGHT_ALT ENTER    &ThumbSide RALT ENTER
+                                                      &altcast                 &ThumbSide LEFT_SHIFT ESCAPE  &holdTapThumb 1 BACKSPACE                                               &holdTapThumb 1 SPACE  &ThumbSide RIGHT_ALT ENTER    &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -160,10 +160,10 @@
         Function {
             display-name = "fn";
             bindings = <
-&trans  &td0  &kp F7  &kp F8  &kp F9  &td0                                 &mmv MOVE_UP                     &kp F15  &kp F17  &kp F18  &kp F19  &kp F12  &kp PRINTSCREEN
-&to 0   &td0  &kp F4  &kp F5  &kp F6  &td0                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F13  &kp F14  &kp F15  &kp F16  &kp F10  &sl 3
-&td0    &td0  &kp F1  &kp F2  &kp F3  &to 0  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp F14  &kp F11  &kp F12  &kp F13  &kp F11  &to 0
-                      &trans  &trans  &to 0                                                                 &to 0    &trans   &trans
+&trans  &td0     &kp F7  &kp F8  &kp F9  &kp F22                                &mmv MOVE_UP                     &kp F15  &kp F17  &kp F18  &kp F19  &kp F12  &kp PRINTSCREEN
+&to 0   &kp F20  &kp F4  &kp F5  &kp F6  &kp F23                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F13  &kp F14  &kp F15  &kp F16  &kp F10  &kp ENTER
+&td0    &kp F21  &kp F1  &kp F2  &kp F3  &kp F24  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp F14  &kp F11  &kp F12  &kp F13  &kp F11  &to 0
+                         &trans  &trans  &to 0                                                                   &to 0    &trans   &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
