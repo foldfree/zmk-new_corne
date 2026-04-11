@@ -61,7 +61,7 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - $$mdi:alpha-w-box$$
+  - '#'
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:brightness-7$$
   - {t: '$$mdi:transfer$$', type: trans}
