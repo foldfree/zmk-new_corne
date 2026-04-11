@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: NAV}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
+  - fn
   NAV:
   - $$mdi:brightness-5$$
   - $$mdi:keyboard-tab$$
@@ -104,7 +104,7 @@ layers:
   - F7
   - F8
   - F9
-  - '&td0'
+  - F22
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F15
   - F17
@@ -113,11 +113,11 @@ layers:
   - F12
   - PRINTSCREEN
   - {t: WRITE, h: toggle}
-  - '&td0'
+  - F20
   - F4
   - F5
   - F6
-  - '&td0'
+  - F23
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -126,13 +126,13 @@ layers:
   - F15
   - F16
   - F10
-  - {t: Bluetooth, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&td0'
-  - '&td0'
+  - F21
   - F1
   - F2
   - F3
-  - {t: WRITE, h: toggle}
+  - F24
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - F14
@@ -146,7 +146,7 @@ layers:
   - {t: WRITE, h: toggle}
   - {t: WRITE, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   Bluetooth:
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -175,7 +175,7 @@ layers:
   - '&td0'
   - '&td0'
   - '&td0'
-  - {t: '&td0', type: held alternate}
+  - '&td0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - '&td0'
