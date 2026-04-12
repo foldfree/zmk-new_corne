@@ -61,10 +61,10 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - '#'
+  - F16
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:brightness-7$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F16
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
